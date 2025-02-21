@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    background-color: black ;
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    display: flex;
+    justify-content: center; /* توسيط أفقي */
+    align-items: center;     /* توسيط عمودي */
+    height: 100vh;          /* ارتفاع الصفحة بالكامل */
+    margin: 0; 
+}
+.contener{
+    background-color: white;
+    padding: 0 5vw;
+    width: 70vw;
+    height:90vh ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    border-radius: 20px;
+
+}
+
+
+#car_1 {
+    width: 100%;
+
+    height: 100%;
+}
+.content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 80%;
+}
+.content .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 10px;
+}
+.content form input {
+    padding: 5px;
+    border: none;
+    border-bottom:  0.5px solid black;
+}
+.content form .re {
+    display: flex;
+  justify-content: space-between;
+    align-items: center;
+}
+/* From Uiverse.io by nikk7007 */ 
+button {
+    padding: 0.8em 1.8em;
+    border: 2px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2;
+   }
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 105%;
+   }
+   
+   button:hover {
+    color: #111;
+   }
+   

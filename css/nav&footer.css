@@ -1,0 +1,175 @@
+/* 
+body{
+    background: white;
+    height: 100vh;
+    
+    
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px,10px;
+    background:#f5f5dc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+}
+.navbar a{
+    font-size: 18px;
+    color: 255, 245, 230, 1;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left:40px ;
+    transition: 1s;
+    align-items: center;
+text-align: center;
+}
+.navbar  :hover {
+    color: blue
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin-right: 400px;
+
+
+}
+.navbar ul li a{
+    padding-inline: 20px;
+    font-size: 25px;
+    
+}
+
+
+footer{
+    background-color: red;
+    display: flex;
+
+    
+}
+
+.contactus {
+    display: flex;
+    
+}
+
+    
+
+ */
+
+
+
+ /* General body styling */
+body {
+    background: white;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Header styles */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: #f5f5dc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+
+}
+
+.navbar ul li a {
+    padding-inline: 20px;
+    font-size: 25px;
+    color: black;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    margin-top: 150px; /* So it's not under the header */
+}
+
+footer h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 16px;
+    max-width: 400px;
+    line-height: 1.5;
+}
+
+.ourservices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus i {
+    display: flex;
+    font-size: 36px;
+    
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.contactus i:hover {
+    color: #1DA1F2; /* Blue color for hover effect */
+}
