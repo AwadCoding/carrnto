@@ -14,7 +14,7 @@ body {
   }
 
   .card {
-    background: #fff;
+    background: #e9e1e1;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -70,7 +70,7 @@ body {
   }
   .btn {
     padding: 0.8em 1.8em;
-    border: 2px solid orange;
+    border: 2px solid #ffc107;
     border-radius: 20px;
     position: relative;
     overflow: hidden;
@@ -81,7 +81,7 @@ body {
     transition: 0.3s;
     z-index: 1;
     font-family: inherit;
-    color: orange;
+    color: #ffc107;
   }
 
   .btn::before {
@@ -140,22 +140,22 @@ img {
     background-image: url(imgs/Screenshot\ 2025-02-18\ 165449.png);
     height: 100px;
     width: 200px;
-    margin-left: 20px;
+  
 }
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   background: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
 }
 
 .logo {
   width: 150px;
-  height: 100px;
+  height: 60px;
 }
 
 .navbar ul {
@@ -167,25 +167,29 @@ img {
   margin: 0 10px;
 }
 .navbar ul li a:hover {
-    border-bottom: 2px solid #007bff;
+    /* border-bottom: 1px solid red; */
    
     transition: all 0.3s ease-in-out;
-    color: #007bff;
+    color: red;
 }
 
 .navbar ul li a {
   text-decoration: none;
   font-weight: bold;
+  color: #ffc107;
+
 }
 
 
 .search-box {
+  width: 200px;
   display: flex;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
 }
 
 .search-box input {
+  width: 100%;
   padding: 5px;
   border: none;
   border-radius:  3px;
@@ -199,4 +203,25 @@ img {
   border: none;
   border-radius: 0 3px 3px 0;
   cursor: pointer;
+}
+footer {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #fff;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  color: red;
+}
+footer a:hover {
+  color: blue;
+}
+footer svg {
+  width: 25px;
+  margin: 0 5px;
+  height: 25px;
 }

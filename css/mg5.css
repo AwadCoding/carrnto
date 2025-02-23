@@ -14,65 +14,66 @@
 
 }
 
-
-
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: black;
-  }
-  
-  .logo {
-    width: 150px;
-    height: 100px;
-  }
-  
-  .navbar ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  .navbar ul li {
-    margin: 0 10px;
-  }
-  .navbar ul li a:hover {
-      border-bottom: 2px solid #007bff;
-     
-      transition: all 0.3s ease-in-out;
-      color: #007bff;
-  }
-  
-  .navbar ul li a {
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  
-  .search-box {
-    display: flex;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-  }
-  
-  .search-box input {
-    padding: 5px;
-    border: none;
-    border-radius:  3px;
-  }
-  
-  .search-btn {
-  
-    padding: 5px 10px;
-    background: #333;
-    color: #fff;
-    border: none;
-    border-radius: 0 3px 3px 0;
-    cursor: pointer;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #ffffff;
+  color: black;
+}
+
+.logo {
+  width: 150px;
+  height: 60px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 0 10px;
+}
+.navbar ul li a:hover {
+    /* border-bottom: 1px solid red; */
+   
+    transition: all 0.3s ease-in-out;
+    color: red;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffc107;
+
+}
+
+
+.search-box {
+  width: 200px;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius:  3px;
+}
+
+.search-btn {
+
+  padding: 5px 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
 .price{
     background-color:white
     ;
@@ -208,11 +209,7 @@
     height: 90px;
 }
 
-img {
-    /* height: 100px;
-    width: 100px; */
-    margin-left: 20px;
-}
+
 .frstlogo{
     height: 100px;
     width: 200px;
@@ -243,8 +240,4 @@ img {
 
 }
 
-.navbar ul li a {
-    padding-inline: 20px;
-    font-size: 25px;
-    color: black;
-}
+

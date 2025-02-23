@@ -49,6 +49,7 @@ body, h1, h2, p, ul, li, a, input, button {
   .navbar ul li a {
     text-decoration: none;
     font-weight: bold;
+    color: #ffc107;
   }
   
 
@@ -82,11 +83,11 @@ body, h1, h2, p, ul, li, a, input, button {
     ;
         height: 90vh;
         text-align: center;
-        background-image: url(../image/hero.webp);
+        background-image: url(../image/heroo.avif);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        color: #fff;
+        color: black ;
         align-content: center;
         justify-content: center;
         align-items: center;
@@ -118,7 +119,9 @@ body, h1, h2, p, ul, li, a, input, button {
   .cta-btn:hover {
    color: red;
   }
-  
+  .hero h1{
+    color: #ffc107;
+  }
   /* Statistics Section */
   .statistics {
     display: flex;
@@ -149,7 +152,7 @@ body, h1, h2, p, ul, li, a, input, button {
   
   .stat h2 {
     font-size: 2.5em;
-    color: #007bff;
+    color: #ffc107;
   }
   
   .stat p {
@@ -181,7 +184,7 @@ body, h1, h2, p, ul, li, a, input, button {
   
   .text h2 {
     font-size: 1.5em;
-    color: #007bff;
+    color: #ffc107;
   }
   .how-to-book{
     display: flex
@@ -204,7 +207,7 @@ body, h1, h2, p, ul, li, a, input, button {
   }
   .text-book h2 {
     font-size: 1.5em;
-    color: #007bff;
+    color: #ffc107;
   }
   .text p {
     font-size: 1.2em;
@@ -219,7 +222,7 @@ body, h1, h2, p, ul, li, a, input, button {
   }
 
   ul li i {
-      color: #007bff;
+      color: red;
       margin-right: 10px;
   }
   .about .img-about img {
@@ -250,7 +253,7 @@ body, h1, h2, p, ul, li, a, input, button {
   }
   
   footer a {
-    color: #007bff;
+    color: red;
   }
   footer a:hover {
     color: blue;
